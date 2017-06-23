@@ -1,4 +1,4 @@
-# angularjs-formdesigner
+# AngularJS Form Designer
 Dynamic form designer in AngularJS with drag &amp; drop support.
 
 This form designer has been developed as part of an internship assignment of the following students:
