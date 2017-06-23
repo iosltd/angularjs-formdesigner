@@ -2,8 +2,8 @@
 Dynamic form designer in AngularJS with drag &amp; drop support.
 
 This form designer has been developed as part of an internship assignment of the following students:
-- Payal Ghoorhoo (University of Mauritius)
-- Nirvan Ram Shewraj (University of Mauritius)
+- [Payal Ghoorhoo](https://github.com/payalghoorhoo) (University of Mauritius)
+- [Nirvan Ram Shewraj](https://github.com/nirvan16) (University of Mauritius)
 
 ## Components
 - AngularJS (version 1.x)
