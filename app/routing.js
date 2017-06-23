@@ -13,8 +13,15 @@
 
         // Default location to navigate to start with... 
         $urlRouterProvider
-            .when('', '/login')
-            .otherwise('/login');
-    }
+            .when('', '/')
+            .otherwise('/home');
+    
+        $stateProvider
+        
+        .state('home',{
+            url:'/home',
+            templeteUrl:'view/home.html'
+        })
 
-})();
+    }
+});
