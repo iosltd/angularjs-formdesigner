@@ -17,10 +17,17 @@
             .otherwise('/home');
     
         $stateProvider
-        
+
         .state('home',{
-            url:'/home',
+            url:'/view',
             templeteUrl:'view/home.html'
+        })
+
+        .state('listOfForms',{
+            url:'/view',
+            templeteUrl:'view/listOfForm',
+            controller:'grid',
+            $resource: ''
         })
 
     }
