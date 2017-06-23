@@ -13,4 +13,4 @@ This form designer has been developed as part of an internship assignment of the
 - Kendo UI for jQuery
 
 ## Feedback
-Your feedback is highly appreciated and will help the above listed interns to improve their skills and extend their knowledge.
+Your feedback is highly appreciated and will help the interns  listed above to improve their skills and extend their knowledge.
