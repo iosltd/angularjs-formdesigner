@@ -11,27 +11,17 @@
             <div>
                 <md-toolbar>
                     <h1 class="md-display-1" layout="row" layout-align="center">Form Builder</h1>
-                    
-                <md-tabs md-dynamic-height md-bottom md-center-tabs="true" md-stretch-tabs="auto">
-                    <nav layout="row" layout-align="center">
-                        <md-tab aria-label="home">
-                            <a>Home</a>
-                        </md-tab>
-                        <md-tab>
-                            <a>Second State</a>
-                        </md-tab>
-                        <md-tab>
-                            <a>Third State</a>
-                        </md-tab>
-                    </nav>
-                </md-tabs>
                 </md-toolbar>
             </div>
         </header>
 
         <main>
             
-            <ui-view></ui-view>
+            <a ui-sref="home"></a>
+
+            <ui-view>
+
+            </ui-view>
         </main>
         
         <footer>
