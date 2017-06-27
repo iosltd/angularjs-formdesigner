@@ -20,15 +20,23 @@
 
         .state('home',{
             url:'/view',
-            templeteUrl:'view/home.html'
+            templateUrl:'view/home.html'
         })
 
         .state('listOfForms',{
             url:'/view',
-            templeteUrl:'view/listOfForm',
-            controller:'grid',
-            $resource: ''
+            templateUrl:'view/listOfForm.html',
+            controller:'formgrid'
         })
+
+        .state('editForm',{
+            url:'/view',
+            templateUrl:'view/editForm.html',
+            controller:'editctrl'
+        })
+     
+
+      
 
     }
 });
