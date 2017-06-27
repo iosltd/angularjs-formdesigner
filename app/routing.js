@@ -1,6 +1,3 @@
-(function () {
-    'use strict';
-
     angular
         .module('formDesigner', ['ui.router'])
         .config(RoutingConfig);
@@ -40,4 +37,3 @@
             controller:'formPreview'
         })  
     }
-});
