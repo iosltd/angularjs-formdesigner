@@ -34,9 +34,11 @@
             templateUrl:'view/editForm.html',
             controller:'editctrl'
         })
-     
 
-      
-
+        .state('formPreview',{
+            url:'/view',
+            templateUrl:'view/formPreview',
+            controller:'formPreview'
+        })  
     }
 });
