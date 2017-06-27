@@ -20,24 +20,24 @@
 
         .state('home',{
             url:'/view',
-            templateUrl:'view/home.html'
+            templateUrl:'app/view/home.html'
         })
 
         .state('listOfForms',{
             url:'/view',
-            templateUrl:'view/listOfForm.html',
+            templateUrl:'app/view/listOfForm.html',
             controller:'formgrid'
         })
 
         .state('editForm',{
             url:'/view',
-            templateUrl:'view/editForm.html',
+            templateUrl:'app/view/editForm.html',
             controller:'editctrl'
         })
 
         .state('formPreview',{
             url:'/view',
-            templateUrl:'view/formPreview',
+            templateUrl:'app/view/formPreview',
             controller:'formPreview'
         })  
     }
