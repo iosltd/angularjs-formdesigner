@@ -1,6 +1,4 @@
-angular
-    .module('formDesigner', ['ui.router'])
-    .config(RoutingConfig);
+formDesignerApp.config(RoutingConfig);
 
 function RoutingConfig($stateProvider, $urlRouterProvider) {
     
