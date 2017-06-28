@@ -1,6 +1,4 @@
-(function () {
-    'use strict';
-
+var formDesignerApp =
     angular
         .module('formDesigner',
             ['ngAnimate', 'ngCookies', 'ngSanitize',
@@ -23,6 +21,4 @@
 
         .config(function allowBlobLinkHrefs($compileProvider) {
             $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|file|blob):/);
-        })
-    
-})();
+    });
