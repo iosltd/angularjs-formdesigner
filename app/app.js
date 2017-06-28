@@ -4,7 +4,7 @@
     angular
         .module('formDesigner',
             ['ngAnimate', 'ngCookies', 'ngSanitize',
-             'ui.router', 'ngMaterial', 'ngMessages'])
+             'ui.router', 'ngMaterial', 'ngMessages','kendo.directives'])
 
         // https://docs.angularjs.org/guide/production
         //.config(['$compileProvider', function ($compileProvider) {
