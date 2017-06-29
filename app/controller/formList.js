@@ -19,11 +19,11 @@ function formList ($scope) {
             pageable: true,
             resizable: true,
             selectable: true,
-            toolbar: ["create", "edit", "delete", "cancel"],
+            toolbar: ["create", "destroy","cancel"],
 
             columns: 
             [
-                { template: "<input type='checkbox' class='checkbox' />" },
+                { selectable: true, width: "50px" },
                 {
                     field: "name",
                     title: "Name",
@@ -36,6 +36,12 @@ function formList ($scope) {
                     field: "job",
                     title: "Job",
                 },
-            ]
+                { template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form'>"}
+            ],
+
+            editable: {
+                confirmation: true,
+                confirmDelete: "Yes",
+            }
     };
 }
