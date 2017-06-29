@@ -15,6 +15,10 @@ function formList ($scope) {
                 serverSorting: true
             },
 
+            pageable: true,
+            resizable: true,
+            selectable: true,
+
             columns: 
             [
                 {
