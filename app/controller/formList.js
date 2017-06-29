@@ -5,9 +5,9 @@ function formList ($scope) {
             dataSource: {    
                 data: 
                 [
-                    { name: "Donald", surname: "Draper", job: "Lawyer", checkBox:null},
-                    { name: "Dexter", surname: "Morgan", job: "Officer", checkBox:null},
-                    { name: "Anna", surname: "Boyd", job: "Nurse", checkBox:null},
+                    { name: "Donald", surname: "Draper", job: "Lawyer"},
+                    { name: "Dexter", surname: "Morgan", job: "Officer"},
+                    { name: "Anna", surname: "Boyd", job: "Nurse"},
                 ],
 
                 pageSize: 5,
@@ -23,10 +23,7 @@ function formList ($scope) {
 
             columns: 
             [
-                {
-                    field: "checkBox",
-                    title: "checkBox"
-                },
+                { template: "<input type='checkbox' class='checkbox' />" },
                 {
                     field: "name",
                     title: "Name",
