@@ -9,10 +9,7 @@ function formList ($scope) {
                     { name: "Dexter", surname: "Morgan", job: "Officer"},
                     { name: "Anna", surname: "Boyd", job: "Nurse"},
                 ],
-
-                pageSize: 5,
-                serverPaging: true,
-                serverSorting: true
+                pageSize: 5
             },
 
             sortable: true,
