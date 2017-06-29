@@ -21,7 +21,7 @@ function formList ($scope) {
             selectable: true,
             toolbar: 
             [
-                { template: "<input type='button' name='btnEdit' class='k-button' value='Create Form'" },
+                { template: "<input type='button' name='btnEdit' class='k-button' value='Create Form' ui-sref='formEdit'>" },
                 "destroy","cancel"
             ],
 
@@ -40,7 +40,7 @@ function formList ($scope) {
                     field: "job",
                     title: "Job",
                 },
-                { template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form'"}
+                { template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'>"}
             ],
 
             editable: {
