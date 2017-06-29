@@ -1,10 +1,8 @@
-(function () {
-    'use strict';
-
+var formDesignerApp =
     angular
         .module('formDesigner',
             ['ngAnimate', 'ngCookies', 'ngSanitize',
-             'ui.router', 'ngMaterial', 'ngMessages'])
+             'ui.router', 'ngMaterial', 'ngMessages','kendo.directives'])
 
         // https://docs.angularjs.org/guide/production
         //.config(['$compileProvider', function ($compileProvider) {
@@ -23,6 +21,4 @@
 
         .config(function allowBlobLinkHrefs($compileProvider) {
             $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|file|blob):/);
-        })
-    
-})();
+    });
