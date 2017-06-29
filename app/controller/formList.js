@@ -15,9 +15,11 @@ function formList ($scope) {
                 serverSorting: true
             },
 
+            sortable: true,
             pageable: true,
             resizable: true,
             selectable: true,
+            toolbar: ["create", "edit", "delete", "cancel"],
 
             columns: 
             [
