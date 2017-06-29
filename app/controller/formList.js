@@ -2,32 +2,36 @@ formDesignerApp.controller('formList', formList);
 
 function formList ($scope) {
     $scope.mainGridOptions = {
-            dataSource: {
-                
+            dataSource: {    
+                data: 
+                [
+                    { name: "Donald", surname: "Draper", job: "Lawyer", checkBox:null},
+                    { name: "Dexter", surname: "Morgan", job: "Officer", checkBox:null},
+                    { name: "Anna", surname: "Boyd", job: "Nurse", checkBox:null},
+                ],
+
                 pageSize: 5,
                 serverPaging: true,
                 serverSorting: true
             },
-            sortable: true,
-            pageable: true,
-            
+
             columns: 
             [
                 {
-                    field: "Col1",
-                    title: "Column 1",
+                    field: "checkBox",
+                    title: "checkBox"
                 },
                 {
-                    field: "Col2",
-                    title: "Column 2",
+                    field: "name",
+                    title: "Name",
                 },
                 {
-                    field: "Col3",
-                    title: "Column 3",
+                    field: "surname",
+                    title: "Surname",
                 },
                 {
-                    field: "Col4",
-                    title: "Column 4",
+                    field: "job",
+                    title: "Job",
                 },
             ]
     };
