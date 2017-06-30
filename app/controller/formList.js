@@ -24,7 +24,6 @@ function formList ($scope) {
 
             columns: 
             [
-                { selectable: true, width: "50px" },
                 {
                     field: "name",
                     title: "Name",
