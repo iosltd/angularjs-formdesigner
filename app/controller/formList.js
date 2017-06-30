@@ -16,11 +16,6 @@ function formList ($scope) {
             pageable: true,
             resizable: true,
             selectable: true,
-            toolbar: 
-            [
-                { template: "<input type='button' name='btnEdit' class='k-button' value='Create Form' ui-sref='formEdit'>" },
-                "destroy","cancel"
-            ],
 
             columns: 
             [
@@ -32,7 +27,8 @@ function formList ($scope) {
                 {   
                     field: "actions",
                     title: "Actions",
-                    template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'>"
+                    template: 
+                    "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'/><input type='button' name='btnDelete' class='k-button' value='Delete Form'>"
                 }
             ],
     };

@@ -4,10 +4,15 @@
     Below is a list of forms:
     <br/><br/>
     
-    <div ng-controller="formList" layout="row" layout-align="center">
+    <div ng-controller="formList" layout="column" layout-align="center">
 
         <kendo-grid options="mainGridOptions">
         </kendo-grid>
+
+        <br/>
     
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <md-button class="md-raised md-primary" ui-sref="formEdit">Create Form</md-button>
+        </section>
     </div>
 </div>
