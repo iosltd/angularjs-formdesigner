@@ -62,10 +62,18 @@ function formList ($scope) {
             columns: 
             [
                 {
-                    field: "forms",
-                    title: "Forms",
+                    field: "formName",
+                    title: "Names",
                 },
-                
+                {
+                    field: "dateCreated",
+                    title: "Date Created"
+                },
+
+                {
+                    field: "dateModified",
+                    title: "Date Modified"
+                },
                 {   
                     field: "actions",
                     title: "Actions",
