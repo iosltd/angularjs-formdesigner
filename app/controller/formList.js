@@ -8,14 +8,23 @@ function formList ($scope) {
                     { formList: "Form 1"},
                     { formList: "Form 2"},
                     { formList: "Form 3"},
+                    { formList: "Form 4"},
+                    { formList: "Form 5"},
+                    { formList: "Form 6"},
+                    { formList: "Form 7"},
                 ],
-                pageSize: 5
             },
 
             sortable: true,
             pageable: true,
             resizable: true,
             selectable: true,
+            pageable: {
+                pageSize: 2,
+                previousNext: true,
+                input: true,
+                pageSizes: true,
+            },
 
             columns: 
             [
