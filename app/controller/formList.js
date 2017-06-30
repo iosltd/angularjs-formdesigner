@@ -5,13 +5,13 @@ function formList ($scope) {
             dataSource: {    
                 data: 
                 [
-                    { formList: "Form 1", dateModified:"10/08/2014" },
-                    { formList: "Form 2", dateModified:"25/01/2009" },
-                    { formList: "Form 3", dateModified:"29/07/2012" },
-                    { formList: "Form 4", dateModified:"08/03/2004" },
-                    { formList: "Form 5", dateModified:"17/11/2016" },
-                    { formList: "Form 6", dateModified:"22/09/2017" },
-                    { formList: "Form 7", dateModified:"24/05/2010" },
+                    { forms: "Form 1", dateModified:"10/08/2014" },
+                    { forms: "Form 2", dateModified:"25/01/2009" },
+                    { forms: "Form 3", dateModified:"29/07/2012" },
+                    { forms: "Form 4", dateModified:"08/03/2004" },
+                    { forms: "Form 5", dateModified:"17/11/2016" },
+                    { forms: "Form 6", dateModified:"22/09/2017" },
+                    { forms: "Form 7", dateModified:"24/05/2010" },
                 ],
             },
 
@@ -29,8 +29,8 @@ function formList ($scope) {
             columns: 
             [
                 {
-                    field: "formList",
-                    title: "Form List",
+                    field: "forms",
+                    title: "Forms",
                 },
                 
                 {   
