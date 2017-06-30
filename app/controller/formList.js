@@ -59,13 +59,6 @@ function formList ($scope) {
                 pageSizes: true,
             },
 
-            detailTemplate: 'Form Details: <div class="grid"></div>',
-            detailInit: function(e) {
-                e.detailRow.find(".grid").kendoGrid({
-                dataSource: e.data.date
-                });
-            },
-
             columns: 
             [
                 {
@@ -78,7 +71,7 @@ function formList ($scope) {
                     title: "Actions",
                     template: 
                     "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'/><input type='button' name='btnDelete' class='k-button' value='Delete Form'>"
-                }
+                },
             ],
     };
 }
