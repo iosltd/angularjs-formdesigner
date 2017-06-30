@@ -35,10 +35,5 @@ function formList ($scope) {
                     template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'>"
                 }
             ],
-
-            editable: {
-                confirmation: true,
-                confirmDelete: "Yes",
-            }
     };
 }
