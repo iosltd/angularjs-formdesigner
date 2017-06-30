@@ -5,9 +5,9 @@ function formList ($scope) {
             dataSource: {    
                 data: 
                 [
-                    { name: "Donald", surname: "Draper", job: "Lawyer"},
-                    { name: "Dexter", surname: "Morgan", job: "Officer"},
-                    { name: "Anna", surname: "Boyd", job: "Nurse"},
+                    { formList: "Form 1"},
+                    { formList: "Form 2"},
+                    { formList: "Form 3"},
                 ],
                 pageSize: 5
             },
@@ -25,18 +25,15 @@ function formList ($scope) {
             columns: 
             [
                 {
-                    field: "name",
-                    title: "Name",
+                    field: "formList",
+                    title: "Form List",
                 },
-                {
-                    field: "surname",
-                    title: "Surname",
-                },
-                {
-                    field: "job",
-                    title: "Job",
-                },
-                { template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'>"}
+                
+                {   
+                    field: "actions",
+                    title: "Actions",
+                    template: "<input type='button' name='btnEdit' class='k-button' value='Edit Form' ui-sref='formEdit'>"
+                }
             ],
 
             editable: {
