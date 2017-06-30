@@ -4,46 +4,41 @@ function formList ($scope) {
     $scope.mainGridOptions = {
             dataSource: [
                 {
-                     forms: "Form 1",
-                        date: [
-                            { dateModified: "10/08/2014" }
-                        ]
+                    formName: "Form 1",
+                    dateModified: "10/08/2014",
+                    dateCreated: "25/04/2008"
                 },
                 {
-                    forms: "Form 2",
-                        date: [
-                            { dateModified: "25/01/2009" }
-                        ]
+                    formName: "Form 2",
+                    dateModified: "25/01/2009",
+                    dateCreated: "21/09/2001"
+
                 },
                  {
-                    forms: "Form 3",
-                        date: [
-                            { dateModified: "29/07/2012" }
-                        ]
+                    formName: "Form 3",
+                    dateModified: "29/07/2012",
+                    dateCreated: "25/04/2004"
+
                 },
                  {
-                    forms: "Form 4",
-                        date: [
-                            { dateModified: "08/03/2004" }
-                        ]
+                    formName: "Form 4",
+                    dateModified: "08/03/2004",
+                    dateCreated: "19/12/2003"
                 },
                  {
-                    forms: "Form 5",
-                        date: [
-                            { dateModified: "17/11/2016" }
-                        ]
+                    formName: "Form 5",
+                    dateModified: "17/11/2016",
+                    dateCreated: "09/10/2000"
                 },
                 {
-                     forms: "Form 6",
-                        date: [
-                            { dateModified: "22/09/2017" }
-                        ]
+                    formName: "Form 6",
+                    dateModified: "22/09/2017",
+                    dateCreated: "15/01/2008"
                 },
                 {
-                     forms: "Form 7",
-                        date: [
-                            { dateModified: "24/05/2010" }
-                        ]
+                    formName: "Form 7",
+                    dateModified: "24/05/2010",
+                    dateCreated: "29/05/2006"
                 },
                 
             ],
@@ -66,13 +61,12 @@ function formList ($scope) {
                     title: "Names",
                 },
                 {
-                    field: "dateCreated",
-                    title: "Date Created"
-                },
-
-                {
                     field: "dateModified",
                     title: "Date Modified"
+                },
+                {
+                    field: "dateCreated",
+                    title: "Date Created"
                 },
                 {   
                     field: "actions",
