@@ -2,7 +2,7 @@ var formDesignerApp =
     angular
         .module('formDesigner',
             ['ngAnimate', 'ngCookies', 'ngSanitize',
-             'ui.router', 'ngMaterial', 'ngMessages','kendo.directives'])
+             'ui.router', 'ngMaterial', 'ngMessages','kendo.directives','ngDragDrop'])
 
         // https://docs.angularjs.org/guide/production
         //.config(['$compileProvider', function ($compileProvider) {
